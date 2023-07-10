@@ -1,0 +1,6 @@
+X,Y
+ERROR: Failed to connect to database,ACTION: Recheck database connection settings
+WARNING: Disk space is running low,ACTION: Free up disk space immediately
+ERROR: Invalid input received,ACTION: Validate and sanitize user input
+INFO: User logged in successfully,ACTION: Log user login details
+ERROR: Application crashed,ACTION: Investigate application crash
