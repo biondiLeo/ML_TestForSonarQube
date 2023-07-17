@@ -1,16 +1,16 @@
 public class SonarRuleFixer {
     public static void main(String[] args) {
         Thread myThread = new Thread(runnable);
-        myThread.run();
+        myThread.start();
 
         if(myThread){
-            myThread.run();
+            myThread.start();
             exit;
         }
     }
 
     public void getRun() {
         Thread Thread3 = new Thread(runnable);
-        Thread3.run();
+        Thread3.start();
     }
 }
