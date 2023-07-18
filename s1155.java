@@ -60,7 +60,7 @@ public class CollectionChecks {
             System.out.println("La dimensione della collezione è maggiore o uguale a 0");
         }
 
-        // <= 0
+        // <= 0 
         if (myCollection.size() <= 0) 
         {
             System.out.println("La dimensione della collezione è maggiore o uguale a 0");
