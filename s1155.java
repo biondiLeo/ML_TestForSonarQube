@@ -15,12 +15,10 @@ public class CollectionChecks {
 
     public static void main(String[] args) {
         CollectionChecks collectionChecks = new CollectionChecks();
-
-        // Aggiungi alcuni elementi alla collezione
+        
         collectionChecks.addItem("Elemento 1");
         collectionChecks.addItem("Elemento 2");
 
-        // if (myCollection.size() == 0)
         if (0 == collectionChecks.myCollection.size()) {
             System.out.println("La collezione è vuota");
         }
@@ -28,8 +26,7 @@ public class CollectionChecks {
         if (collectionChecks.myCollection.size() == 0) {
             System.out.println("La collezione è vuota");
         }
-
-        // if (myCollection.size() != 0)
+        
         if (0 != collectionChecks.myCollection.size()) {
             System.out.println("La collezione non è vuota");
         }
@@ -38,12 +35,10 @@ public class CollectionChecks {
             System.out.println("La collezione non è vuota");
         }
 
-        // if (myCollection.size() < 1)
         if (collectionChecks.myCollection.size() < 1) {
             System.out.println("La dimensione della collezione è inferiore a 1");
         }
-
-        // if (0 >= myCollection.size())
+        
         if (0 >= collectionChecks.myCollection.size()) {
             System.out.println("La dimensione della collezione è maggiore o uguale a 0");
         }
