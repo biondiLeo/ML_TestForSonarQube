@@ -21,11 +21,19 @@ public class CollectionChecks {
         collectionChecks.addItem("Elemento 2");
 
         // if (myCollection.size() == 0)
+        if (0 == collectionChecks.myCollection.size()) {
+            System.out.println("La collezione è vuota");
+        }
+
         if (collectionChecks.myCollection.size() == 0) {
             System.out.println("La collezione è vuota");
         }
 
         // if (myCollection.size() != 0)
+        if (0 != collectionChecks.myCollection.size()) {
+            System.out.println("La collezione non è vuota");
+        }
+
         if (collectionChecks.myCollection.size() != 0) {
             System.out.println("La collezione non è vuota");
         }
